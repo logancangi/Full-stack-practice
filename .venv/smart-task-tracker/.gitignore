@@ -1,0 +1,74 @@
+# -------------------------
+# Python / FastAPI backend
+# -------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# Virtual environments
+.venv/
+env/
+venv/
+ENV/
+
+# Local settings
+*.env
+.env.*
+
+# Coverage / testing
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Mypy / type checker
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pydantic
+.pydantic_cache/
+
+# -------------------------
+# Node / React frontend
+# -------------------------
+node_modules/
+build/
+dist/
+.cache/
+coverage/
+*.log
+
+# dotenv files
+*.local
+
+# React state
+*.DS_Store
+
+# -------------------------
+# Docker
+# -------------------------
+*.pid
+*.seed
+*.pid.lock
+
+# Docker volumes and other local stuff
+docker-compose.override.yml
+.env.docker
+
+# -------------------------
+# IDE / Editors
+# -------------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+*.bak
+
+# -------------------------
+# OS
+# -------------------------
+Thumbs.db
+.DS_Store
